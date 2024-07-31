@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badget Balance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="holding">
+                <div class="budget">
+                    <h1>Budget</h1>
+                    <input type="number" placeholder="Enter Budget" id="budget">
+                    <button  id="setBudget">Set Budget</button>
+                </div>
+                <div class="products">
+                    <h1>Expenses</h1>
+                    <input type="text" placeholder="Enter Title of Product" id="title">
+                    <input type="number" placeholder="Enter Cost of the Product" id="cost"><br>
+                    <button id="checkAmount">Check Amount</button>
+                </div>
+            </div>
+            <div class="view">
+                <h2>Total Budget : <span id="totalBudget">0</span></h2>
+                <h2>Expenses: <span id="totalexpenses">0</span></h2>
+                <h2>Balance: <span id="totalBalance">0</span></h2>
+            </div>
+            <div class="list">
+                <h1 style="margin-top: 20px;">Expenses List</h1>
+                <div class="expList">
+                    <ul id="listing">
+                        <li><span class="forSpace default" > Product</span><span class="forSpace default"> Their Amount</span></li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

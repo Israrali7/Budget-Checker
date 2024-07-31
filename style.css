@@ -1,0 +1,89 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    height: 550px;
+    width: 950px;
+    background-color: #C9DABF;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+.holding{
+    display: flex;
+    gap: 80px;
+}
+#cost ,#title ,#budget{
+    height: 30px;
+    width: 300px;
+    font-size: large;
+    margin-top: 8px;
+    margin-bottom:8px ;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+#cost ,#title ,#budget:focus{
+    outline: none;
+}
+h1{
+    margin-bottom: 10px;
+    color: #046a7a;
+}
+#setBudget,#checkAmount{
+    height: 40px;
+    padding: 8px;
+    margin-top: 13px;
+    cursor: pointer;
+    /* background-color:rgb(105, 105, 223) ; */
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #046a7a;
+    font-size: larger;
+    background-color: #9CA986;
+    /* width: ; */
+}
+.budget{
+    /* height: 150px; */
+    margin-right:50px ;
+}
+.view{
+    margin-top:30px ;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    height: 50px;
+    /* box-sizing: border-box; */
+    padding-left: 8px;
+    background-color: #9CA986;
+    border-radius: 6px;
+    align-items: center;  
+    color: #046a7a;
+}
+h2{
+    font-weight: 300;
+}
+.expList{
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.forSpace{
+    margin-right: 250px;
+    margin-left: 80px;
+    font-size: larger;
+    
+}     
+.default{
+    font-weight: bold;
+}
+.listing{
+    text-decoration: none;
+}
